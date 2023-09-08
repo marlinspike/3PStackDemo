@@ -29,7 +29,7 @@ countries = [
     "Australia"
 ]
 
-for y in range(0, 200):
+while True:
     event_data_batch = producer.create_batch()
 
     for dev in devices:
